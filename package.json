@@ -11,6 +11,10 @@
     "require": "./dist/index.js",
     "import": "./dist/index.mjs"
   },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo lol",
     "build": "rollup -c",
