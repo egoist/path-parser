@@ -29,7 +29,7 @@ import { comparePathParserScore, createParser } from '@egoist/path-parser'
 
 const paths = ['/:user', '/about']
 
-path.sort((a, b) => {
+paths.sort((a, b) => {
   return comparePathParserScore(createParser(a), createParser(b))
 })
 //=> [ '/about', '/:user' ]
