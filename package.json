@@ -5,6 +5,7 @@
     "access": "public"
   },
   "version": "0.0.0",
+  "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "exports": {
