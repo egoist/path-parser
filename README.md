@@ -13,7 +13,7 @@ npm i @egoist/path-parser
 Create a path parser:
 
 ```ts
-import {createParser} from '@egoist/path-parser'
+import { createParser } from '@egoist/path-parser'
 
 const parser = createParser('/user/:user')
 
@@ -30,7 +30,7 @@ import { comparePathParserScore, createParser } from '@egoist/path-parser'
 const paths = ['/:user', '/about']
 
 path.sort((a, b) => {
-    return comparePathParserScore(createParser(a), createParser(b))
+  return comparePathParserScore(createParser(a), createParser(b))
 })
 //=> [ '/about', '/:user' ]
 ```
