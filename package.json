@@ -1,0 +1,39 @@
+{
+  "name": "@egoist/path-parser",
+  "description": "A robust and light-weight path-to-regexp alternative",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "scripts": {
+    "test": "echo lol",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@egoist/prettier-config": "^0.1.0",
+    "esbuild": "^0.9.2",
+    "prettier": "^2.2.1",
+    "rollup": "^2.41.3",
+    "rollup-plugin-dts": "^3.0.1",
+    "rollup-plugin-esbuild": "^3.0.2",
+    "typescript": "^4.2.3"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Eduardo San Martin Morote",
+    "url": "https://github.com/posva"
+  },
+  "contributors": [
+    {
+      "name": "EGOIST",
+      "url": "https://github.com/egoist"
+    }
+  ]
+}
