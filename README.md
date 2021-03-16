@@ -27,7 +27,7 @@ Sort paths by ranking:
 ```ts
 import { comparePathParserScore, createParser } from '@egoist/path-parser'
 
-const paths = ['/:user', '/about'],
+const paths = ['/:user', '/about']
 
 path.sort((a, b) => {
     return comparePathParserScore(createParser(a), createParser(b))
