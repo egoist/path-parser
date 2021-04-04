@@ -1,5 +1,6 @@
 import { tokenizePath } from './pathTokenizer'
-import { tokensToParser, PathParserOptions } from './pathParserRanker'
+import { tokensToParser } from './pathParserRanker'
+import type { PathParserOptions } from './pathParserRanker'
 
 export { comparePathParserScore } from './pathParserRanker'
 
